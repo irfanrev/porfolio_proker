@@ -4,6 +4,8 @@ import 'package:portofolio_proker/app/modules/home/bindings/home_binding.dart';
 import 'package:portofolio_proker/app/modules/home/views/home_view.dart';
 import 'package:portofolio_proker/app/modules/navbar/bindings/navbar_binding.dart';
 import 'package:portofolio_proker/app/modules/navbar/views/navbar_view.dart';
+import 'package:portofolio_proker/app/modules/proker/bindings/proker_binding.dart';
+import 'package:portofolio_proker/app/modules/proker/views/proker_view.dart';
 
 part 'app_routes.dart';
 
@@ -22,6 +24,11 @@ class AppPages {
       name: _Paths.NAVBAR,
       page: () => NavbarView(),
       binding: NavbarBinding(),
+    ),
+    GetPage(
+      name: _Paths.PROKER,
+      page: () => ProkerView(),
+      binding: ProkerBinding(),
     ),
   ];
 }
