@@ -101,8 +101,7 @@ class HomeView extends GetView<HomeController> {
                       color: Colors.grey[200],
                       shape: BoxShape.circle,
                       image: DecorationImage(
-                        image: NetworkImage(
-                            'https://firebasestorage.googleapis.com/v0/b/himtika-mobile-information.appspot.com/o/kadep1edu.png?alt=media&token=30ae6f9e-3d3c-4499-a4f8-40d9aa9d511c'),
+                        image: AssetImage('assets/irfan.png'),
                       ),
                     ),
                   ),
