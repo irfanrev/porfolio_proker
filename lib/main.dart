@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:portofolio_proker/app/utils/navhome.dart';
 
 import 'app/routes/app_pages.dart';
 
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Application",
-      initialRoute: AppPages.INITIAL,
-      getPages: AppPages.routes,
+      // initialRoute: AppPages.INITIAL,
+      // getPages: AppPages.routes,
+      home: NavHome(),
     );
   }
 }

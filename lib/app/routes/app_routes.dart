@@ -5,12 +5,12 @@ abstract class Routes {
   Routes._();
 
   static const HOME = _Paths.HOME;
-  static const NAVBAR = _Paths.NAVBAR;
   static const PROKER = _Paths.PROKER;
+  static const VISIMISI = _Paths.VISIMISI;
 }
 
 abstract class _Paths {
   static const HOME = '/home';
-  static const NAVBAR = '/navbar';
   static const PROKER = '/proker';
+  static const VISIMISI = '/visimisi';
 }

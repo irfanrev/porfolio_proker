@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class NavbarController extends GetxController {
-  //TODO: Implement NavbarController
+class VisimisiController extends GetxController {
+  //TODO: Implement VisimisiController
 
   final count = 0.obs;
   @override
