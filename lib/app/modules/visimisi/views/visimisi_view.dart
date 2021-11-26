@@ -81,17 +81,17 @@ class VisimisiView extends GetView<VisimisiController> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Container(
-                        width: 100,
+                        width: 150,
                         height: 50,
                         decoration: BoxDecoration(
-                          shape: BoxShape.circle,
+                          borderRadius: BorderRadius.circular(15),
                           color: Colors.cyan,
                         ),
                         child: Center(
                           child: Text(
                             'Visi dan Misi',
                             style: TextStyle(
-                                fontSize: 18.0,
+                                fontSize: 16.0,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold),
                           ),
@@ -103,7 +103,7 @@ class VisimisiView extends GetView<VisimisiController> {
                       Text(
                         '"Menjadi wadah untuk inovasi kreatif, berprestasi, unggul dalam keilmuan dan selalu menjungjung tinggi rasa kekeluargaan serta mampu berkontribusi dalam perkembangan Society 5.0 melalui inovasi produk digital untuk kebermanfaatan masyarakat luas dan Teknik Informatika UNSIKA."',
                         style: GoogleFonts.poppins(
-                          fontSize: 18.0,
+                          fontSize: 17.0,
                         ),
                         textAlign: TextAlign.center,
                       )
